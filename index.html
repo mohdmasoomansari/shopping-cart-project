@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="items"  id="store" store>
+            <h1>Products</h1>
+            <div class="itm">
+                <p>Product 1</p>
+                <p price>100</p>
+                <div class="btn" id="btn1">
+                    <p id="btn1-inc" class="inc-btn">+</p>
+                    <p id="btn1-val">0</p>
+                    <p id="btn1-dec" class="inc-btn">-</p>
+                </div>
+            </div>
+            <div class="itm">
+                <p>Product 2</p>
+                <p price>200</p>
+                <div class="btn">
+                    <p id="btn2-inc"class="inc-btn">+</p>
+                    <p id="btn2-val">0</p>
+                    <p id="btn2-dec"class="inc-btn">-</p>
+                </div>
+            </div>
+            <div class="itm">
+                <p>Product 3</p>
+                <p price>300</p>
+                <div class="btn">
+                    <p id="btn3-inc"class="inc-btn">+</p>
+                    <p id="btn3-val">0</p>
+                    <p id="btn3-dec"class="inc-btn">-</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="cart">
+            <h1>Cart</h1>
+            <div class="saved" id="sv">
+                <P id="empty">Cart is Empty</P>
+            </div>
+            <div class="total">
+                <P>Total : </P>
+                
+                <p cart-amount>0</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>  
+</body>
+</html>
